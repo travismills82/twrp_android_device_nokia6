@@ -1,0 +1,8 @@
+place holder
+
+Commands need to be run on rooted system to fill out this file.
+
+cat /proc/partitions
+ls -l /dev/block/platform/soc/7824900.sdhci/by-name/
+fdisk -l /dev/block/mmcblk0
+blkid
