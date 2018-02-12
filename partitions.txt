@@ -1,8 +1,140 @@
-place holder
-
-Commands need to be run on rooted system to fill out this file.
-
 cat /proc/partitions
 ls -l /dev/block/platform/soc/7824900.sdhci/by-name/
 fdisk -l /dev/block/mmcblk0
 blkid
+
+DDR -> /dev/block/mmcblk0p19
+aboot -> /dev/block/mmcblk0p22
+abootbak -> /dev/block/mmcblk0p23
+apdp -> /dev/block/mmcblk0p57
+boot -> /dev/block/mmcblk0p24
+box -> /dev/block/mmcblk0p35
+cache -> /dev/block/mmcblk0p61
+cda -> /dev/block/mmcblk0p38
+cmnlib -> /dev/block/mmcblk0p51
+cmnlib64 -> /dev/block/mmcblk0p53
+cmnlib64bak -> /dev/block/mmcblk0p54
+cmnlibbak -> /dev/block/mmcblk0p52
+config -> /dev/block/mmcblk0p43
+cust_nv -> /dev/block/mmcblk0p29
+default_nv -> /dev/block/mmcblk0p30
+devcfg -> /dev/block/mmcblk0p16
+devcfgbak -> /dev/block/mmcblk0p17
+deviceinfo -> /dev/block/mmcblk0p7
+devinfo -> /dev/block/mmcblk0p26
+dip -> /dev/block/mmcblk0p47
+dpo -> /dev/block/mmcblk0p59
+dsp -> /dev/block/mmcblk0p18
+fsc -> /dev/block/mmcblk0p4
+fsg -> /dev/block/mmcblk0p3
+ftmboot -> /dev/block/mmcblk0p28
+ftmlog -> /dev/block/mmcblk0p34
+hidden -> /dev/block/mmcblk0p37
+hwcfg -> /dev/block/mmcblk0p31
+keymaster -> /dev/block/mmcblk0p55
+keymasterbak -> /dev/block/mmcblk0p56
+keystore -> /dev/block/mmcblk0p42
+limits -> /dev/block/mmcblk0p45
+logdump -> /dev/block/mmcblk0p62
+mcfg -> /dev/block/mmcblk0p50
+mdtp -> /dev/block/mmcblk0p48
+misc -> /dev/block/mmcblk0p41
+modem -> /dev/block/mmcblk0p8
+modemst1 -> /dev/block/mmcblk0p1
+modemst2 -> /dev/block/mmcblk0p2
+mota -> /dev/block/mmcblk0p46
+msadp -> /dev/block/mmcblk0p58
+multi_splash -> /dev/block/mmcblk0p36
+oem -> /dev/block/mmcblk0p44
+persist -> /dev/block/mmcblk0p40
+recovery -> /dev/block/mmcblk0p25
+reserved -> /dev/block/mmcblk0p27
+reserved_bak -> /dev/block/mmcblk0p39
+rf_nv -> /dev/block/mmcblk0p6
+rpm -> /dev/block/mmcblk0p12
+rpmbak -> /dev/block/mmcblk0p13
+sbl1 -> /dev/block/mmcblk0p10
+sbl1bak -> /dev/block/mmcblk0p11
+sec -> /dev/block/mmcblk0p20
+securefs -> /dev/block/mmcblk0p5
+splash -> /dev/block/mmcblk0p21
+ssd -> /dev/block/mmcblk0p9
+sutinfo -> /dev/block/mmcblk0p32
+syscfg -> /dev/block/mmcblk0p49
+system -> /dev/block/mmcblk0p60
+systeminfo -> /dev/block/mmcblk0p33
+tz -> /dev/block/mmcblk0p14
+tzbak -> /dev/block/mmcblk0p15
+userdata -> /dev/block/mmcblk0p63
+
+ 254        0    1048576 zram0
+ 179        0   30535680 mmcblk0
+ 179        1       1536 mmcblk0p1
+ 179        2       1536 mmcblk0p2
+ 179        3       1536 mmcblk0p3
+ 179        4          1 mmcblk0p4
+ 179        5       8192 mmcblk0p5
+ 179        6       2048 mmcblk0p6
+ 179        7       1024 mmcblk0p7
+ 179        8      86016 mmcblk0p8
+ 179        9          8 mmcblk0p9
+ 179       10        512 mmcblk0p10
+ 179       11        512 mmcblk0p11
+ 179       12        512 mmcblk0p12
+ 179       13        512 mmcblk0p13
+ 179       14       2048 mmcblk0p14
+ 179       15       2048 mmcblk0p15
+ 179       16        256 mmcblk0p16
+ 179       17        256 mmcblk0p17
+ 179       18      16384 mmcblk0p18
+ 179       19         32 mmcblk0p19
+ 179       20         16 mmcblk0p20
+ 179       21      11264 mmcblk0p21
+ 179       22       1024 mmcblk0p22
+ 179       23       1024 mmcblk0p23
+ 179       24      65536 mmcblk0p24
+ 179       25      65536 mmcblk0p25
+ 179       26       1024 mmcblk0p26
+ 179       27      16384 mmcblk0p27
+ 179       28      65536 mmcblk0p28
+ 179       29       2048 mmcblk0p29
+ 179       30       2048 mmcblk0p30
+ 179       31       1024 mmcblk0p31
+ 259        0          1 mmcblk0p32
+ 259        1        256 mmcblk0p33
+ 259        2      32768 mmcblk0p34
+ 259        3       8192 mmcblk0p35
+ 259        4      16384 mmcblk0p36
+ 259        5      40960 mmcblk0p37
+ 259        6       8192 mmcblk0p38
+ 259        7      16384 mmcblk0p39
+ 259        8      32768 mmcblk0p40
+ 259        9       1024 mmcblk0p41
+ 259       10        512 mmcblk0p42
+ 259       11         32 mmcblk0p43
+ 259       12     262144 mmcblk0p44
+ 259       13         32 mmcblk0p45
+ 259       14        512 mmcblk0p46
+ 259       15       1024 mmcblk0p47
+ 259       16      32768 mmcblk0p48
+ 259       17        512 mmcblk0p49
+ 259       18       4096 mmcblk0p50
+ 259       19        256 mmcblk0p51
+ 259       20        256 mmcblk0p52
+ 259       21        256 mmcblk0p53
+ 259       22        256 mmcblk0p54
+ 259       23        256 mmcblk0p55
+ 259       24        256 mmcblk0p56
+ 259       25        256 mmcblk0p57
+ 259       26        256 mmcblk0p58
+ 259       27          8 mmcblk0p59
+ 259       28    5012480 mmcblk0p60
+ 259       29     262144 mmcblk0p61
+ 259       30      65536 mmcblk0p62
+ 259       31   23785455 mmcblk0p63
+ 179       32       4096 mmcblk0rpmb
+ 179       64   15339520 mmcblk1
+ 179       65   15338496 mmcblk1p1
+ 253        0    4934264 dm-0
+ 253        1   23785439 dm-1
+
