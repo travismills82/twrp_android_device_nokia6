@@ -61,5 +61,5 @@
 /fsc		      emmc	     /dev/block/bootdevice/by-name/fsc		    flags=subpartitionof=/fsg;backup=1
 /modemst1	      emmc	     /dev/block/bootdevice/by-name/modemst1	    flags=subpartitionof=/fsg;backup=1
 /modemst2	      emmc	     /dev/block/bootdevice/by-name/modemst2	    flags=subpartitionof=/fsg;backup=1
-/mrd		      emmc	     /dev/block/bootdevice/by-name/mrd		    flags=display="MRD Data";backup=1
+#/mrd		      emmc	     /dev/block/bootdevice/by-name/mrd		    flags=display="MRD Data";backup=1
 /firmware	      ext4	     /dev/block/bootdevice/by-name/modem	    flags=display="Modem";fsflags="nosuid,nodev";backup=1
